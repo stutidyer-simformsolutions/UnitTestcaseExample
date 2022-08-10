@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/stuti.dyer/Documents/Projects/UnitTestcaseExample/jest/App.test.js">
+    <testCase name="Testcase of App screen snapshot" duration="0"/>
+    <testCase name="Testcase of App screen button" duration="15"/>
+  </file>
+</testExecutions>

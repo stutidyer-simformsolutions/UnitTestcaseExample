@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display data with class Snapshot 1`] = `
+<ForwardRef(SafeAreaView)
+  style={
+    Object {
+      "flex": 1,
+      "marginHorizontal": 25,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 32,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 24,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Enter Value
+    </Text>
+    <TextInput
+      keyboardType="numeric"
+      onChangeText={[Function]}
+      placeholder="Please enter the number"
+      style={
+        Object {
+          "borderWidth": 1,
+          "height": 40,
+          "marginVertical": 12,
+          "padding": 10,
+        }
+      }
+      testID="section-textInput"
+      value={null}
+    />
+    <Button
+      disabled={true}
+      onPress={[Function]}
+      testID="section-button"
+      title="Press me"
+    />
+    <FlatList
+      contentContainerStyle={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+      data={Array []}
+      keyExtractor={[Function]}
+      renderItem={[Function]}
+    />
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
