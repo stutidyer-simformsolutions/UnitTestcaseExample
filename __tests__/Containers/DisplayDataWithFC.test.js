@@ -29,7 +29,7 @@ describe("Display data with function", () => {
     expect(toJSON()).toMatchSnapshot();
   });
 
-  test("when user edit the value of list", async () => {
+  test("when user edit any value of list", async () => {
     const { getByTestId } = render(<DisplayDataWithFC />);
     const button = getByTestId("section-button");
     const textInput = await getByTestId("section-textInput");
@@ -43,7 +43,7 @@ describe("Display data with function", () => {
     fireEvent.press(button);
   });
 
-  test("when user delete the value from list", async () => {
+  test("when user delete any value from list", async () => {
     const { getByTestId } = render(<DisplayDataWithFC />);
     const button = getByTestId("section-button");
 

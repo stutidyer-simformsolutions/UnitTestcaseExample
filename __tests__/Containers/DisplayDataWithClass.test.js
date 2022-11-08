@@ -9,6 +9,7 @@ describe("Display data with class", () => {
   test("snapshot of the displayData with class component", () => {
     // const component = mount(<DisplayDataWithClass/>)
     const component = shallow(<DisplayDataWithClass />);
+    // console.log('DisplayDataWithClass.test.js component ',component.debug());
     expect(component).toMatchSnapshot();
   });
 

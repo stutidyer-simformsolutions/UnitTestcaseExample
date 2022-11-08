@@ -117,3 +117,121 @@ exports[`Home Screen Testcase Snapshot 1`] = `
   </View>
 </View>
 `;
+
+exports[`Home Screen Testcase Snapshot of home screen 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 25,
+        "lineHeight": 50,
+        "marginVertical": 8,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello Everyone! 
+ Welcome to Unit Testcase Demo!
+  </Text>
+  <View
+    style={
+      Object {
+        "flex": 0.8,
+        "justifyContent": "center",
+        "marginVertical": 25,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="class-component-button"
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Demo with Statefull Component
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityLabel="Press Me"
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Demo with Stateless Component
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
