@@ -6,14 +6,16 @@ import { Button } from "react-native";
 describe("Display data with class", () => {
   const component = shallow(<DisplayDataWithClass />);
   const instance = component.instance();
-  test("snapshot of the displayData with class component", () => {
-    // const component = mount(<DisplayDataWithClass/>)
-    const component = shallow(<DisplayDataWithClass />);
-    // console.log('DisplayDataWithClass.test.js component ',component.debug());
+  test("snapshot of the displayData with class component with shallow", () => {
     expect(component).toMatchSnapshot();
   });
 
-  test("fire onChange event", () => {
+  test("snapshot of the displayData with class component with mount", () => {
+    const component = mount(<DisplayDataWithClass />);
+    expect(component).toMatchSnapshot();
+  });
+
+  test("onChange event", () => {
     instance.onChangeText(10);
     expect(instance.state.data).toEqual(10);
   });

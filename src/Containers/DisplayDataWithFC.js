@@ -98,6 +98,7 @@ const DisplayData = (props) => {
   return (
     <FlatList
       data={data}
+      testID={'data-flatlist'}
       renderItem={renderItem}
       keyExtractor={(item) => item}
     />

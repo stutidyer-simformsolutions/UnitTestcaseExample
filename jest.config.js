@@ -2,6 +2,7 @@ module.exports = {
     "preset": "react-native",
 	"collectCoverage": true,
     "moduleFileExtensions": ['ts', 'tsx', 'js', 'jsx', 'json','node'],
+    // "setupFiles": ["<rootDir>setupTests.js",],
     "setupFilesAfterEnv": [
         "<rootDir>setupTests.js",
          "@testing-library/jest-native/extend-expect"
