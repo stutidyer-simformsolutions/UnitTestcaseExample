@@ -86,7 +86,7 @@ const DisplayData = (props) => {
       <Button
         title={"Delete"}
         onPress={() => onDeletePress(index)}
-        testID={"delete-button"}
+        testID={"delete-button"+ index}
       />
     </View>
   );

@@ -32,7 +32,7 @@ describe("Display data with function", () => {
     const editButton = await getByTestId("edit-button");
     fireEvent.press(editButton);
     fireEvent.changeText(textInput, 30);
-    
+
     expect(textInput.props.value).toEqual(30);
     fireEvent.press(button);
 
@@ -44,13 +44,16 @@ describe("Display data with function", () => {
     const button = getByTestId("section-button");
 
     const textInput = await getByTestId("section-textInput");
-    fireEvent.changeText(textInput, 40);
+    fireEvent.changeText(textInput, 10);
     fireEvent.press(button);
 
-    const deleteButton = await getByTestId("delete-button");
+    fireEvent.changeText(textInput, 20);
+    fireEvent.press(button);
+
+    const deleteButton = await getByTestId("delete-button0");
     fireEvent.press(deleteButton);
     
     const flatlist = await getByTestId("data-flatlist");
-    expect(flatlist.props.data).toEqual([])
+    expect(flatlist.props.data).toEqual([20])
   });
 });

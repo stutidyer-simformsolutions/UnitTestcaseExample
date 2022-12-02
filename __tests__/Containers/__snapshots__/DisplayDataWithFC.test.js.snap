@@ -319,7 +319,7 @@ exports[`Display data with function when user add value to the list 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="delete-button"
+              testID="delete-button0"
             >
               <View
                 style={
